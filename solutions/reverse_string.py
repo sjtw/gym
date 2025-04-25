@@ -1,5 +1,3 @@
-import unittest
-
 def reverse(a: list[str]) -> list[str]:
     i = 0
     while i < len(a) / 2:

@@ -2,7 +2,6 @@ import unittest
 
 from max_profit import max_profit
 
-
 class TestBasicFunctionality(unittest.TestCase):
     def test_max_profit(self):
         self.assertEqual(max_profit([2,10,1,1,3]), 10)

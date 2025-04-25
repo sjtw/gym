@@ -12,6 +12,3 @@ class TestBasicFunctionality(unittest.TestCase):
     def test_single_number(self):
         self.assertEqual(single_number([2,2,1]), 1)
         self.assertEqual(single_number([4,2,2,9,4]), 9)
-
-if __name__ == '__main__':
-    unittest.main()

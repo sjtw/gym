@@ -12,7 +12,3 @@ class TestBasicFunctionality(unittest.TestCase):
         self.assertEqual( [1], c)
         d = array_intersection([1, 1], [1, 2])
         self.assertEqual([1], d)
-
-
-if __name__ == '__main__':
-    unittest.main()
